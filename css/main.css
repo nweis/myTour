@@ -1,0 +1,18 @@
+/* Main container in which the app resides */
+.container {
+    padding: 0;
+}
+
+/* page-container where the content goes to */
+.page {
+    padding: 0;
+}
+
+/* log-form */
+.login-form {
+
+}
+
+.ui-page {
+    -webkit-backface-visibility: hidden;
+}

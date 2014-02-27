@@ -1,0 +1,22 @@
+<div data-role="tabs">
+    <div data-role="navbar">
+        <ul>
+            <li><a id="login-tab" data-theme="a" data-ajax="false">Login</a></li>
+            <li><a href="#registration" class="ui-btn-active" data-theme="a" data-ajax="false">Registrierung</a></li>
+        </ul>
+    </div>
+
+    <div id="registration" class="ui-content">
+        <h1>Registrierung</h1>
+        <form class="registration-form">
+            <label for="registerEmail">Benutzername</label>
+            <input type="text" id="registerEmail" placeholder="Benutzername">                  
+            <label for="registerPassword">Passwort</label>
+            <input type="password" id="registerPassword" placeholder="Passwort">
+            <label for="registerPasswordRepeat">Passwort wiederholen</label>
+            <input type="password" id="registerPasswordRepeat" placeholder="Passwort wiederholen">
+            <hr />    
+            <button type="submit" id="registerButton" data-icon="user" data-iconshadow="true">Registrieren</button>        
+        </form>
+    </div>
+</div>
